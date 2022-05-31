@@ -20,7 +20,6 @@ class checker:
                     s.proxies.update(Proxy)
                     url_last_full = url_last+self.email
                     r = s.get(url_last_full,headers=headers_last,timeout=10)
-                    logging.info((self.email,str(r.content)))
                     if r.json() == False: #Site returns "True" if email is available
                         self.result = ((self.email,"Registered"))                  
                 break
