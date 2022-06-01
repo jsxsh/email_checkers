@@ -98,7 +98,7 @@ class CSVEditor:
                 try:
                     record = []
                     email = result[0]
-                    exception = results[1]
+                    exception = result[1]
                     for item in self.columns:
                         record.append(self.dict_originals[email][item])
                     record.insert(0,exception);record.insert(0,email)
