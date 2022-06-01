@@ -49,7 +49,7 @@ def generate_forter_token():
 
 headers_post = {
     "Accept":"*/*",
-    "Accept-Encoding":"gzip, deflate, br",
+    #"Accept-Encoding":"gzip, deflate, br",
     "Accept-Language":"en-US,en;q=0.5",
     "content-type":"application/json",
     "Host":"use1-prod-bk.rbictg.com",
@@ -66,7 +66,7 @@ headers_post = {
 
 headers_options = {
     "Accept":"*/*",
-    "Accept-Encoding":"gzip, deflate, br",
+    #"Accept-Encoding":"gzip, deflate, br",
     "Accept-Language":"en-US,en;q=0.5",
     "Access-Control-Request-Headers":"content-type,x-forter-token,x-lr-session-url,x-session-id,x-ui-language,x-ui-platform,x-ui-region,x-user-datetime", #content-type,x-forter-token,x-lr-session-url,x-session-id,x-ui-language,x-ui-platform,x-ui-region,x-user-datetime
     "Access-Control-Request-Method":"POST",
