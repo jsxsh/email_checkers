@@ -18,7 +18,7 @@ class Main:
         self.count_checkpoint = count_checkpoint
         try: os.mkdir("logs")
         except: pass
-        logging.basicConfig(filename=f'logs/{self.name}.log', level=logging.INFO, filemode='w', format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%d-%m-%y %H:%M:%S')
+        logging.basicConfig(filename=f'logs/main.log', level=logging.INFO, filemode='w', format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%d-%m-%y %H:%M:%S')
         logging.info(f"{self.name} script started.")
         self.checker = Importer(self.name).checker
         self.run_chunk()
