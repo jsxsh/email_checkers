@@ -7,7 +7,7 @@ headers_main = {
     'Host':'api1.weightwatchers.com',
     'Origin':'https://auth.weightwatchers.com',
     'Referer':'https://auth.weightwatchers.com/',
-    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36'
+    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0'
 }
 
 
