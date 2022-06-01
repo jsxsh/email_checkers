@@ -2,7 +2,7 @@ url_last = "https://www.snagajob.com/api/job-seekers/v1/is-username-available?us
 
 headers_last = {
     "Accept":"application/json, text/plain, */*",
-    "Accept-Encoding":"gzip, deflate, br",
+    #"Accept-Encoding":"gzip, deflate, br",
     "Accept-Language":"en-US,en;q=0.5",
     "Host":"www.snagajob.com",
     "Referer":"https://www.snagajob.com/",
